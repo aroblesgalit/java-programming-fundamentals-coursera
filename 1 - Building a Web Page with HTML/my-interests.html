@@ -39,7 +39,7 @@
         }
 
         ul li {
-            list-style-type: circle;
+            /*list-style-type: circle;*/
             list-style-position: inside;
             font-size: 18px;
             margin: 5px;
@@ -49,19 +49,53 @@
 <body>
     <div class="header">
         <h1>My Interests</h1>
-    </div>
-    
-    <div class="content">
+      </div>
+      
+      <div class="content">
         <p><b>What are some of Alvin's likes?</b></p>
         <ul>
-            <li>Drawing</li>
-            <li>Sweets</li>
-            <li><b>Working <em>out</em></b></li>
-            <li>Hiking</li>
-            <li><em>Coding</em></li>
+          <li>Drawing</li>
+          <li>Sweets (Favorites:)
+            <ol>
+              <li>S'mores</li>
+              <li>Ube ice cream</li>
+              <li>Leche flan</li>
+            </ol>
+          </li>
+          <li><b>Working <em>out</em></b></li>
+          <li>Hiking</li>
+          <li><em>Coding</em> (Frontend frameworks I like:)
+            <ul>
+              <li>React</li>
+              <li>Vanilla Javascript</li>
+              <li>Vue</li>
+            </ul>
+          </li>
         </ul>
-        <img src="https://cdn.pixabay.com/photo/2020/10/13/04/29/house-5650705_1280.jpg" width="100%" alt="Sketch by VANK_NGN | Pixabay" />
+        
         <a href="https://www.alvingalit.com/" target="blank_">My Online Portfolio</a>
-    </div>
+        <h2>Some arts I like:</h2>
+        <table>
+          <tr>
+            <th>Artwork</th>
+            <th>Author</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td>
+              <img src="https://cdn.pixabay.com/photo/2020/10/13/04/29/house-5650705_1280.jpg" width="100%" alt="Sketch by VANK_NGN | Pixabay" />
+            </td>
+            <td>VANK_NGN</td>
+            <td>Sketch of house, street</td>
+          </tr>
+          <tr>
+            <td>
+              <img src="https://cdn.pixabay.com/photo/2020/10/14/18/35/sign-post-5655110_1280.png" width="100%" alt="Sign post illustration by sanctumdigital | Pixabay" />
+            </td>
+            <td>sanctumdigital</td>
+            <td>Sign post illustration</td>
+          </tr>
+        </table>
+      </div>
 </body>
 </html>
