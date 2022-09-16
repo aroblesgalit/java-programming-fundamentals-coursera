@@ -23,3 +23,14 @@ var result1 = phrase3words("smile", "at", "everyone");
 var result2 = phrase3words("everyone", "wave", "back");
 var result3 = phrase3words("coding", "is", "fun");
 console.log(result1, result2, result3);
+
+// Exercise 2 - Format a name
+function reformatName(first, last) {
+  var answer = last + ", " + first;
+  return answer;
+}
+
+var result4 = reformatName("Susan", "Rodger");
+console.log(result4);
+result4 = reformatName("Robert", "Duvall");
+console.log(result4);
