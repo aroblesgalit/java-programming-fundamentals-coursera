@@ -49,3 +49,16 @@ console.log(
     "https://www.dukelearntoprogram.com/course1/example/eastereggs.jpg"
   )
 );
+
+// Exercise 4 - Perimeter of an image
+function perimeter(imageName) {
+  let image = new Image();
+  image.src = imageName;
+  let width = parseInt(image.width);
+  let height = parseInt(image.height);
+  return width * 2 + height * 2;
+}
+
+console.log(
+  perimeter("https://www.dukelearntoprogram.com/course1/example/roger.png")
+);
