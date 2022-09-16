@@ -34,3 +34,18 @@ var result4 = reformatName("Susan", "Rodger");
 console.log(result4);
 result4 = reformatName("Robert", "Duvall");
 console.log(result4);
+
+// Exercise 3 - Number of pixels in an image
+function numberPixels(namefile) {
+  let image = new Image();
+  image.src = namefile;
+  let width = parseInt(image.width);
+  let height = parseInt(image.height);
+  return width * height;
+}
+
+console.log(
+  numberPixels(
+    "https://www.dukelearntoprogram.com/course1/example/eastereggs.jpg"
+  )
+);
