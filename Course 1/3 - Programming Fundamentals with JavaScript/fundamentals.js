@@ -1,3 +1,5 @@
+const SimpleImage = require("../../SimpleImage");
+
 // Write a function that prints the width and height of an image
 function getImageDims(url) {
   let image = new Image();
@@ -54,6 +56,7 @@ console.log(
 function perimeter(imageName) {
   let image = new Image();
   image.src = imageName;
+  console.log(image);
   let width = parseInt(image.width);
   let height = parseInt(image.height);
   return width * 2 + height * 2;
@@ -62,3 +65,10 @@ function perimeter(imageName) {
 console.log(
   perimeter("https://www.dukelearntoprogram.com/course1/example/roger.png")
 );
+
+// Exercise 5 - Print the RGB values of a pixel
+function printPixel(nameImage, xpos, ypos) {}
+
+// Try it! Using For Loops
+var img = new SimpleImage(200, 200);
+print(img);
